@@ -4,7 +4,7 @@ Boop is a strategy game, roughly equal to chess in strategic depth. You can [rea
 
 This repo includes a rules engine and command line interface.
 
-The main file runs a game between a randomly choosing bot (p1), and a text-input player (p2). You can write your own players or swap these out.
+The [main file](https://github.com/CloserToTheCenter/BoopGameRules/blob/1faaa709a17c63fa80f08bbdccb808cf3c6552ec/src/boop_the_cat_game.gleam#L29) runs a game between a randomly choosing bot (p1), and a text-input player (p2). You can write your own players or swap these out.
 
 ```
 PS C:\Users\Documents\gleam\boop_the_cat_game> gleam run
@@ -46,9 +46,3 @@ booped!
  ->   1     2     3     4     5     6  --/
 ```
 
-
-## Development
-
-```sh
-gleam run  # start the project
-```
